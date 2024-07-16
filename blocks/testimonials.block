@@ -1,0 +1,6 @@
+<div class="slideritem">
+  <img src="/assets/images/quote.png" alt="Avatar">
+  <p class="testicontent">{body}</p>
+  <h4 class="author-name">{title}</h4>
+  <h5 class="job-position">Benefactor sentiments</h5>
+</div>

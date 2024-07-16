@@ -1,0 +1,32 @@
+<!--content area start-->
+
+<section>
+    <div class="tabsection grandsecconent tabways">
+        <div class="container">
+            {collection.description}
+            <div class="row">
+                <div class="tab">
+                  <script type="text/javascript">console.log({@|json})</script>
+                  {.repeated section items}
+                    <button class="tablinks" onclick="openCity(event, '{collection.fullUrl}', '{urlId}')" data-url="{urlId}" data-id="{id}" data-parenturl="{collection.fullUrl}"><span>{title}</span></button>
+                  {.end}
+                  
+                  <div class="donate">
+                    <h5>Donate to the CEF through<br> 
+your DONOR ADVISED FUND</h5>
+<div id="dafdirectdiv"><form name="dafdirect" id="dafdirect" method="post"><img src="/assets/images/daf.png" alt="Logo DAF Direct"><br><input type="hidden" name="dafdirect_token" id="dafdirect_token" value="d31ab590-a21e-46e4-8d41-2626c1955cef"><br><div class="whatThis"><a id="showwhatisthis" href="#">What is this?</a></div><div id="whatisthis" style="display:none; font-family: " lucida="" grande",="" "lucida="" sansunicode",="" arial,="" sans-serif;="" font-size:12px;="" line-height:.3em;"=""><div class="dafdirectscroll"><p>A donor advised fund (DAF) is a charitable giving program that allows you to combine the most favorable tax benefits with the flexibility to support your favorite causes.</p><p>If you have a donor advised fund, DAF Direct enables you to recommend grants to this nonprofit directly from your DAF (as long as your DAF's sponsoring organization is participating).</p></div><div class="dafdirectClearfix"></div><div class="whatThis"><a id="closewhatisthis" href="#"><br>Close</a></div></div><div id="notwhatisthis"><label for="dafprovider">Donate now from:</label><br><select name="dafprovider" id="dafprovider" class="dafdirectDonateFrom dafdirectDropdown dafdirectSelect"><option value="">--Please select--</option><option value="FC">Fidelity Charitable</option><option value="SC">Schwab Charitable</option><option value="BNYM">BNY Mellon</option></select><br><label for="dafdirect_dsgtxt">Designation:</label><br><input class="dafdirectInputFull dafdirectInput" type="text" name="dafdirect_dsgtxt" id="dafdirect_dsgtxt" size="8" value=""><div class="dafdirectClearfix"></div><div class="dafdirectClearfix"></div><div id="amountNextContain"><div class="dafdirectInputAmount"><label for="dafdirect_amnt">Amount:</label><br><input type="text" name="dafdirect_amnt" id="dafdirect_amnt" size="8" value="$" class="text-iput dafdirectInput"></div><div class="dafdirectButtonContain"><a id="dafdirectsubmit" href="#"><img border="0" src="https://www.dafdirect.org/ddirect/images/button-next1.jpg" alt="Next"></a></div><div class="dafdirectClearfix"></div></div></div> <!-- amountNextContain --></form></div>
+                  </div>
+                </div>
+                {.repeated section items}
+                  <div id="{urlId}" class="tabcontent">
+                    <h3 class="innertitle">{title}</h3>
+                    {body}
+                  </div>
+                {.end}
+            </div>
+        </div>
+    </div>
+</section>
+
+{@|apply ways-to-give.block}
+<!-- End of content area -->
