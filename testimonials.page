@@ -1,0 +1,60 @@
+<!--content area start-->
+<section>
+    <div class="hm-abtsection missionvideosec testimonialwid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 miisionvideo testimonialvideotop">
+                   <h3 class="innertitle center">Video and Letter messages from our CEF Scholars and Others</h3>
+                   <video id="upload-video3" poster="/assets/images/white.png">
+                        <source src="https://mooviejs.com/trailer/trailer.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Video from a Mass and Social Event in loving memory of the namesake who inspired the Joan C. LeTourneau Endowed Scholarship Fund.  Learn more about this special lady - mother, grandmother, Catholic leader and philanthropist.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="hm-abtsection missionvideosec testimonial-bottom-video">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 miisionvideo">
+                   <video id="upload-video4" poster="/assets/images/white.png">
+                        <source src="https://mooviejs.com/trailer/trailer.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="col-md-6 aboutcontent automargin">
+                    <h2 class="innermaintitle">Meet Frida</h2>
+                    <p>In this short video  speaking to CEF donors about her trip to Rome to meet Pope Francis, and her Faith development at Holy Family Catholic school, Bensenville+ especially at the time that she was diagnosed with Leukemia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="testimonial-other text-center">
+         <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="sentiments text-center"><span>Sentiments</span></h3>
+                    <div class="testslider">
+                        <squarespace:query collection="testimonials" limit="10">
+                            {.repeated section items}
+                                {@|apply testimonials.block}
+                            {.end}
+                        </squarespace:query>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{@|apply ways-to-give.block}
+
+<!-- End of content area -->
