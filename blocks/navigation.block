@@ -1,0 +1,90 @@
+<nav class="navbar navbar-expand-lg navbar-light" data-content-field="navigation">
+ <a class="navbar-brand" href="/"><img src="/assets/images/logo.png"></a>
+   <button class="navbar-toggler navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="icon-bar top-bar"></span>
+    <span class="icon-bar middle-bar"></span>
+    <span class="icon-bar bottom-bar"></span>
+   </button>
+
+   <div class="collapse navbar-collapse" id="navbarText">
+
+     <ul class="navbar-nav ml-auto">
+        
+          {.repeated section items}
+
+          <li class="hd-nav nav-item access {.if active}active{.end}" >
+          
+            {.folder?}
+
+              <div class="dropdown">
+                <a href="{collection.fullUrl}" class="nav-link nv-exp about_menu_link" type="button">{collection.navigationTitle} <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  {.repeated section items}
+                    {.collection?}
+                      <li class="{.section active} active-link{.end}">
+                        <a href="{collection.fullUrl}" class="subnav-link">{collection.navigationTitle}</a>
+                      </li>
+                    {.end}
+                    {.section externalLink}
+                      <li class="external-link">
+                        <a href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+                      </li>
+                    {.end}
+                  {.end}
+                </ul>
+              </div>
+
+
+                
+            {.or}
+
+            {.section collection}
+              
+                <a href="{fullUrl}" class="nav-link nv-exp" data-test="template-nav"> {navigationTitle} <span class="sr-only">(current)</span></a>
+               
+            {.end}
+            {.section externalLink}
+              <a class="nav-link nv-exp" href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+            {.end}
+
+          {.end}
+          </li>
+        {.end}
+
+        <!-- <li class="hd-nav nav-item access">
+          <a class="nav-link  nv-exp" href="http://wp.chkdemo.com/cng/blog.html">
+         Blog</a>
+        </li>-->
+       
+      <div class="portal">
+        <li class="hd-nav nav-item access resp ">
+          <a class="nav-link  nv-exp " href="#">Customer Portal</a>
+        </li>
+        <li class="hd-nav nav-item access resp">
+          <a class="nav-link  nv-exp " href="#">Remote Support</a>
+        </li>
+        <li class="hd-nav nav-item access resp">
+          <a class="nav-link  nv-exp" href="#">CNG Connect</a >
+        </li>
+      </div>
+        <li class="hd-nav nav-item access resp">
+                <a type="tel" class="nav-link  nv-exp" href="tel:8159299850">(815) 929-9850 </a>
+        </li>
+        <li class="hd-nav nav-item access resp">
+          
+                <a class="nav-link  nv-exp" href="mailto:support@consultcng.com">support@consultcng.com </a>
+        </li>
+        <li class="hd-nav nav-item access resp">
+              
+                  <div class="nav-link nv-exp rect ">Monday to Friday: 08:30 AM - 05:00 PM</div>
+        </li>
+        <li class="nav-item  nav-link access searching">
+          <form id="demo-2">
+            <input type="search" placeholder="Search" />
+          </form>
+        </li>
+    
+    </ul>
+     
+  </div>
+</nav>

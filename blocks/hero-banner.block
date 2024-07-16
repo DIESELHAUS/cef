@@ -1,0 +1,16 @@
+<div class="single-slider d-flex" style="background-image: url('{assetUrl}');">
+  <div class="slider-container container">
+      <div class="slider-content">
+          <!--<h2>CEF helps over 1600 students in the Diocese of Joliet each year.</h2>
+          <div class="btnwrapper">
+              <a href="" class="whitebtn">Learn more</a>
+              <a href="" class="primarybtn">donate now</a>
+          </div>-->
+          {body}
+          <div class="btnwrapper">
+            <a href="" class="whitebtn">Learn more</a>
+            <a href="" class="primarybtn">donate now</a>
+          </div>
+      </div>
+  </div>
+</div>

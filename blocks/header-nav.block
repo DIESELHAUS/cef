@@ -1,0 +1,45 @@
+<nav class="site-nav center-center">
+  <ul>
+
+    {.repeated section items}
+
+      
+      
+        {.folder?}
+
+          <li class="menu-item-has-children">
+            <a href="{collection.fullUrl}" class="nav-link nv-exp about_menu_link" type="button">{collection.navigationTitle} <span class="caret"></span></a>
+            <ul class="sub-menu single-column-menu">
+              {.repeated section items}
+                {.collection?}
+                  <li class="{.section active} active-link{.end}">
+                    <a href="{collection.fullUrl}" class="subnav-link">{collection.navigationTitle}</a>
+                  </li>
+                {.end}
+                {.section externalLink}
+                  <li class="external-link">
+                    <a href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+                  </li>
+                {.end}
+              {.end}
+            </ul>
+          </li>
+        {.or}
+        <li class="{.if active}active{.end}" >
+        {.section collection}
+          
+            <a href="{fullUrl}" class="nav-link nv-exp" data-test="template-nav"> {navigationTitle} <span class="sr-only">(current)</span></a>
+           
+        {.end}
+        {.section externalLink}
+          <a class="nav-link nv-exp" href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+        {.end}
+        </li>
+      {.end}
+      
+    {.end}
+      
+      <li><a href="https://www.givecentral.org/appeals-form-registration/acp5c47a6d260464/user/guest"><button class="primarybtn">donate now</button></a></li>
+      
+  </ul>
+</nav>

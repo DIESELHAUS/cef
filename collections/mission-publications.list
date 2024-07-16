@@ -1,0 +1,55 @@
+<section>
+  <div class="pagebanner pd50"  style="background-image: url('/assets/images/missionbanner.png');">
+      <div class="container">
+           <div class="row">
+              <div class="bannercontent">
+                  <h2 class="bannertitle"><span>Mission - </span>{collection.title}</h2>
+                  <a href="" class="primarybtn">Make a donation today online</a>
+              </div>
+          </div>
+      </div>
+   </div>
+</section>
+
+<section>
+  <div class="publicationsection">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <h3>Review these Catholic Education Foundation publications</h3>
+        </div>
+        <script type="text/javascript">console.log({@|json})</script>
+        {.repeated section items}
+            <div class="publications col-md-4">
+                <img src="{assetUrl}" class="dwn" alt="download">
+                <a href="/assets/images/pdf.png" download="w3logo">
+                  <img src="/assets/images/pdf.png" alt="download">
+                    {title}
+                </a>
+            </div>
+        {.end}              
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--slider area end-->
+<section>
+  <div class="events-section center-center homeevent">
+      <div class="col-md-3 bluebox eventcol">
+          <div class="bluboxwrap">
+          <p>CEF</p>
+          <h4>Spotlight</h4>
+      </div>
+      <img src="/assets/images/navarrow.png" alt="Avatar">
+      </div>
+
+      <squarespace:query collection="events" limit="3">
+      <script type="text/javascript">console.log({@|json})</script>
+        {.repeated section items}
+          {@|apply events.block}
+        {.end}
+      </squarespace:query>                   
+  </div>
+</section>

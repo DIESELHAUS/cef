@@ -1,0 +1,37 @@
+<section>
+  <div class="pagebanner pd50"  style="background-image: url('/assets/images/grandbanner.png');">
+      <div class="container">
+           <div class="row">
+              <div class="bannercontent">
+                  <h2 class="bannertitle"><span>Scholarships & Grants - </span>{collection.title}</h2>
+                  <a href="https://online.factsmgt.com/signin.aspx" class="primarybtn">Apply Here</a>
+              </div>
+          </div>
+      </div>
+   </div>
+</section>
+
+<section>
+  <div class="tabsection">
+    <div class="container">
+      <div class="row tabrow">
+        <div class="tab">
+          <script type="text/javascript">console.log({@|json})</script>
+          {.repeated section items}
+            <button class="tablinks" onclick="openCity(event, '{collection.fullUrl}', '{urlId}')" data-url="{urlId}" data-id="{id}" data-parenturl="{collection.fullUrl}"><span>{title}</span></button>
+          {.end}              
+        </div>
+
+        {.repeated section items}
+          <div id="{urlId}" class="tabcontent">
+            <div class="downloadwrap row downloadwrap2">
+              <div class="col-md-12">
+                {body}
+              </div> 
+            </div>
+          </div>
+        {.end}
+      </div>         
+    </div>
+  </div>
+</section>

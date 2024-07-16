@@ -1,0 +1,19 @@
+<section>
+  <div class="givesection missiongivensec"  style="background-image: url('/assets/images/missisonbottombanner.png');">
+      <div class="container">
+           <div class="row">
+          <div class="col-md-7 wid100">
+                 <h2 class="innermaintitle">Ways to Give</h2>
+              <p class="givepara">The students and families that recieve assistance from the Catholic Education Foundation are most grateful for your gift to provide tuition assistance so that they will be able to attend a Catholic school.</p>
+              <div class="btnwrapper">
+                  
+                  <a href="" class="primarybtn">Learn more</a>
+              </div>
+          </div>
+          <div class="col-md-5 givecontents">
+           
+          </div>
+          </div>
+      </div>
+   </div>
+</section>

@@ -1,0 +1,3026 @@
+/*************Responsive Styles*****************/
+/***************iPhone Portrait**************/
+@media only screen and (max-width: 479px) and (min-width: 360px) {
+/*************index*******************/
+.container {
+    width: 100% !important;
+}
+.mobile {
+    display: block !important;
+}
+.blogcol2 .mobile{
+    display: inline-flex !important;
+}
+.desktop {
+    display: none;
+}
+.slider-content h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.social {
+    margin-bottom: 32px;
+}
+.single-slider {
+    height: 410px;
+    display: flex !important;
+    align-items: center;
+}
+.slider-content {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    bottom: 0;
+    position: relative;
+}
+.bluebox.eventcol{
+    height: 110px;
+    min-height: 110px;
+}
+.bluebox  img{
+    display: none;
+}
+.bluboxwrap {
+    text-align: center;
+    margin-right: 0px;
+}
+.eventcontent{
+    padding: 18px 30px;
+}
+.slider-content .btnwrapper {
+    display: flex;
+    justify-content: center;
+}
+.btnwrapper .whitebtn {
+    padding: 14px 20px !important;
+    
+}
+.quote h4{
+    text-align: left;
+    margin-top: 25px;
+}
+.headerow {
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slider-area span.arrow.next.slick-arrow{
+    bottom: 55px;
+    right: 15px;
+}
+.events-section {
+    display: block;
+}
+.eventcol{
+    width: 100% !important;
+    height: 278px;
+}
+.flip-card img{
+        min-height: 278px;
+}
+.flip-card-back{
+        padding-right: 0px;
+}
+.flip-card:hover .contentevent .eventday::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #ffffff;
+    width: 203px;
+    margin-left: 17px;
+    top: 25%;
+}
+.aboutimage img{
+    height: 400px;
+    width: 100%;
+}
+.aboutimage:after {
+    
+    height: 0px;
+    width: 0px;
+    margin-left: 0;
+    border: none;
+}
+.hm-abtsection {
+    padding: 0px;
+}
+.innermaintitle{
+    font-size: 30px;
+}
+.innersubmain{
+    font-size: 20px;
+}
+.aboutcontent {
+    padding: 60px 15px 80px 15px;
+    margin-left: 0px;
+}
+.flip-card1 {
+    display: none;
+}
+.blogcol2 {
+    background-color: #0f75bc;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.givesectionrow{
+    text-align: center;
+}
+.blogcol2 h2.eventtitle,.blogcol2 p{
+    color: #ffffff;
+}
+.hmblogsec {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.blogcol p{
+    margin-top: 15px;
+        margin-bottom: 10px;
+}
+h2.eventtitle {
+    margin-top: 10px;
+}
+.blogcol {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testicontent{
+    width: 100%;
+}
+.testimonialsec {
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+.right{
+    text-align: left !important;
+}
+footer.main-footer,footer.main-footer .right{
+    text-align: center !important;
+}
+section.footer-mid-section p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section.footer-mid-section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    height: 100%;
+}
+#cop { order: 2; }
+#soc { order: 1; }
+#priv { order: 3; }
+section.footer-mid-section .row{
+    display: flex; flex-direction: column;
+}
+.testimonialsec img{
+
+    margin-bottom: 20px;
+}
+h4.author-name{
+    margin-top: 30px;
+}
+.givecontents {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.quote {
+    margin-top: 20px;
+}
+.givesection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.aboutimage {
+    padding: 0px;
+}
+.logo-col img {
+    width: 75%;
+}
+header .main-header {
+    height: 120px;
+}
+.slider-area .slick-dots{
+    display: none;
+}
+.slider-area span.arrow.next.slick-arrow{
+    display: none;
+}
+/****************missison************/
+.pagebanner {
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+}
+.player__video.viewer{
+    width: 100%!important;
+}
+.moovie {
+    width: 100% !important;
+}
+.poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+}
+.player__video.viewer{
+    height: 315px !important;
+}
+/**********boardmember********/
+.bannertitle{
+    font-size: 40px;
+}
+.boardsection{
+    padding-top: 40px;
+}
+.boardsection .innertitle {
+    margin-bottom: 20px;
+}
+.stfname{
+    padding-top: 10px;
+}
+.colstaff {
+    margin-bottom: 40px;
+}
+.borderline {
+    border-top: 1px solid #0f75bc;
+    width: 100%;
+    height: max-content;
+    margin: 0px auto 40px auto;
+}
+.pdr{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.grantsec .whitebtn {
+    margin-top: 20px;
+    padding: 14px 24px !important;
+}
+/*************staff************/
+.staffwrapper.center-center{
+    display: block;
+}
+.staffcol {
+    margin-bottom: 30px;
+    margin-right: 0px;
+    text-align: center;
+    margin-left: 0px;
+}
+.staffsec {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.stafftitle{
+    margin-bottom: 30px;
+}
+.staffimg {
+    width: 100%;
+}
+.staffseccontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/********donation******************/
+.donationtoprow {
+    width: 100%;
+   
+}
+.donationtoprow .col-md-12{
+    padding: 0px;
+}
+.donationtop {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.boximage {
+    width: 100% !important;
+}
+.boxwrap{
+        width: 100%;
+        display: block;
+}
+.donationsection .row {
+    margin: auto;
+    display: block;
+}
+.boxwrapcol{
+        flex: 0 0 100%;
+    max-width: 100%;
+    margin-right: 0px !important;
+
+}
+.donationcol{
+        display: block;
+}
+.boxwrapcol:last-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.boxwrapcol input{
+    width: 100%;
+    margin-left: 0px;
+}
+.listwrapper{
+    width: 100%;
+}
+.donationselect {
+    margin-right: 0px;
+}
+.form-group {
+    display: block;
+}
+.listwrapper label{
+    font-size: 15px;
+}
+.align-center label {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.selectwrap {
+    margin-top: 20px;
+}
+.buttonwrap button{
+    margin-bottom: 20px;
+}
+.slider-area .slick-dots,.slider-area .slick-arrow{
+    display: none !important;
+}
+/************************financial info*************/
+button.accordion {
+    width: 100%;
+    background: #0f75bc;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tab{
+    width: 100%;
+    border-right: none;
+        padding-right: 0px;
+}
+.tabcontent {
+    width: 100%;
+    padding: 25px 0px;
+}
+.tabsection .row{
+    margin: auto;
+}
+
+.tabsection {
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.downloadwrap h3 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.downloads {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+/*******publications**********/
+.publicationsection h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.dwn{
+    height: 250px;
+}
+.publicationsection{
+    margin-top: 60px;
+        margin-bottom: 25px;
+}
+/***********scholarships_grants*************/
+.tabsection.grandsecconent .tab {
+    min-height: 100%;
+    margin-bottom: 20px;
+}
+.tabsection.grandsecconent {
+    padding-bottom: 25px;
+}
+/***************scholarships_grants_leaders_for_the_future********/
+.leadersec .align-center.row{
+    margin: auto;
+}
+.leadersec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.leadersec  h3.innertitle {
+    margin-bottom: 20px;
+}
+.listimg  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.listing {
+    padding: 20px 0px;
+}
+.listimg {
+    padding: 0px;
+    margin-top: 20px;
+}
+.leadersec .downloadwrap {
+    margin: auto;
+}
+
+/**********testimonial*************/
+.testimonialvideotop .poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+    height: 320px;
+    top: 19%;
+}
+.testimonialwid {
+    padding-top: 50px;
+}
+.testimonialwid .innertitle {
+    
+    margin-bottom: 30px;
+}
+.testimonialwid p{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+h3.sentiments span{
+    font-size: 65px;
+    margin-left: -8px;
+}
+h3.sentiments {
+    font-size: 22px;
+    margin-top: 45px;
+    min-height: auto;
+}
+.studcol {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.testimonial-other {
+    padding-bottom: 80px;
+}
+/************waystogive*********/
+.tabimg {
+    height: 470px;
+    width: 100%;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.tabsection.grandsecconent.tabways {
+    padding-bottom: 45px;
+}
+/********donation.html************/
+.formwrap {
+    width: 100%;
+}
+.donationsection .formfield input {
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+.donationsection .formfield div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.form-group {
+    display: block;
+    margin-bottom: 0px;
+}
+.innertitle{
+    font-size: 23px;
+}
+.donorinfo {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+/******mission*******/
+.primarybtn{
+    padding: 14px 15px !important;
+}
+.hm-abtsection.missionvideosec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.poster_button{
+    width: 100%;
+}
+.poster_layer{
+	    height: 315px !important;
+}
+.poster_center{
+    left: 5px;
+}
+.moovie{
+	height: 315px !important;
+}
+.hm-abtsection.missionvideosec .aboutcontent {
+    margin-left: 0px;
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 25px 0px 25px;
+}
+.miisionvideo {
+    padding: 0px;
+}
+.hm-abtsection.missionvideosec .container{
+	padding: 0px;
+}
+.boardsection .substaff img {
+    height: 345px;
+}
+.mainstaf .colstaff {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 35px;
+}
+.boardsection img {
+    height: 345px;
+}
+.publicationsection .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.publications{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.tabrow .tabcontent {
+    padding: 40px 0px 0px 0px;
+    width: 100%;
+}
+.downloads a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hm-abtsection .aboutcontent {
+    padding: 65px 15px 68px 15px;
+    margin-left: 0px;
+}
+.givecontents .innermaintitle{
+	font-size: 49px;
+}
+section.footer-mid-section {
+    padding-top: 55px;
+    padding-bottom: 45px;
+    height: 100%;
+}
+div#priv a {
+    display: flex;
+    justify-content: center;
+}
+
+
+.scograndsec .tab {
+    width: 100%;
+}
+.tabsection.grandsecconent.scograndsec .tab {
+    height: 100%;
+}
+.scograndsec .tabcontent {
+    width: 100%;
+}
+.tabsection.grandsecconent .innertitle {
+    margin-bottom: 10px;
+}
+.miisionvideo .player__video.viewer{
+        width: 100% !important;
+}
+.miisionvideo .poster_layer{
+        width: 100% !important;
+}
+ul.listsec,.leadersec .listimg{
+	    flex: 0 0 100%;
+    max-width: 100%;
+}
+.leadersec p{
+	padding-bottom: 15px;
+}
+.leadersec .loanrow .listing {
+    padding: 20px 15px;
+}
+.listing br{
+	display: none;
+}
+.mgt40{
+	margin-top: 0px;
+}
+.donationsection .align-center input[type="checkbox"]{
+	height: 13px;
+}
+
+
+
+.tabsection.grandsecconent.tabways .tab {
+    width: 100%;
+        display: flex;
+    flex-direction: column;
+}
+.tabsection.grandsecconent.tabways .tablinks{
+	order: 2;
+}
+.tabsection.grandsecconent.tabways  .donate{
+	order: 1;
+}
+.donate {
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+.donorinfo select {
+    margin-bottom: 20px;
+}
+
+.hm-abtsection.missionvideosec .moovie{
+	width: 100% !important;
+	margin-left: 0px;
+}
+.testimonial-student .align-center {
+    display: block;
+}
+
+
+.testimonialvideotop.miisionvideo .poster_layer{
+    margin-top: 9px;
+    height: 327px !important;
+
+}
+.testimonialvideotop .player__video.viewer{
+    height: 327px !important;
+}
+.laut0 {
+    line-height: 30px !important;
+}
+h3.sentiments.laut0 span {
+    margin-top: 0px;
+}
+.testimonial-other {
+    padding-bottom: 40px;
+}
+.hm-abtsection.missionvideosec.testimonialwid p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hm-abtsection.missionvideosec.testimonialwid .poster_center{
+    left: 0px;
+}
+.hm-abtsection.missionvideosec.testimonial-bottom-video .aboutcontent{
+        padding: 15px;
+}
+.miisionvideo.testimonialvideotop .innertitle{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+/**********************iPhone portrait glxy*******************************************************************************************/
+@media only screen and (max-width: 359px) and (min-width: 320px) {
+   
+/*************index*******************/
+.container {
+    width: 100% !important;
+}
+.mobile {
+    display: block !important;
+}
+.blogcol2 .mobile{
+    display: inline-flex !important;
+}
+.desktop {
+    display: none;
+}
+.slider-content h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.social {
+    margin-bottom: 32px;
+}
+.single-slider {
+    height: 410px;
+    display: flex !important;
+    align-items: center;
+}
+.slider-content {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    bottom: 0;
+    position: relative;
+}
+.bluebox.eventcol{
+    height: 110px;
+    min-height: 110px;
+}
+.bluebtn{
+    font-size: 13px !important;
+}
+.btnwrapper .primarybtn{
+    font-size: 13px !important;
+}
+.bluebox  img{
+    display: none;
+}
+.bluboxwrap {
+    text-align: center;
+    margin-right: 0px;
+}
+.eventcontent{
+    padding: 18px 30px;
+}
+.slider-content .btnwrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btnwrapper .whitebtn {
+    padding: 14px 10px !important;
+    font-size: 13px !important;
+}
+.quote h4{
+    text-align: left;
+    margin-top: 25px;
+}
+.headerow {
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slider-area span.arrow.next.slick-arrow{
+    bottom: 55px;
+    right: 15px;
+}
+.events-section {
+    display: block;
+}
+.eventcol{
+    width: 100% !important;
+    height: 278px;
+}
+.flip-card img{
+        min-height: 278px;
+}
+.flip-card-back{
+        padding-right: 0px;
+}
+.flip-card:hover .contentevent .eventday::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #ffffff;
+    width: 50%;
+    margin-left: 17px;
+    top: 25%;
+}
+.aboutimage img{
+    height: 400px;
+    width: 100%;
+}
+.aboutimage:after {
+    
+    height: 0px;
+    width: 0px;
+    margin-left: 0;
+    border: none;
+}
+.hm-abtsection {
+    padding: 0px;
+}
+.innermaintitle{
+    font-size: 30px;
+}
+.innersubmain{
+    font-size: 20px;
+}
+.aboutcontent {
+    padding: 60px 15px 50px 15px;
+    margin-left: 0px;
+}
+.flip-card1 {
+    display: none;
+}
+.blogcol2 {
+    background-color: #0f75bc;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.givesectionrow{
+    text-align: center;
+}
+.blogcol2 h2.eventtitle,.blogcol2 p{
+    color: #ffffff;
+}
+.hmblogsec {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.blogcol p{
+    margin-top: 15px;
+        margin-bottom: 10px;
+}
+h2.eventtitle {
+    margin-top: 10px;
+}
+.blogcol {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testicontent{
+    width: 100%;
+}
+.testimonialsec {
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+.right{
+    text-align: left !important;
+}
+footer.main-footer,footer.main-footer .right{
+    text-align: center !important;
+}
+section.footer-mid-section p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section.footer-mid-section {
+    padding-top: 55px;
+    padding-bottom: 45px;
+    height: 100%;
+}
+div#priv a {
+    display: flex;
+    justify-content: center;
+}
+#cop { order: 2; }
+#soc { order: 1; }
+#priv { order: 3; }
+section.footer-mid-section .row{
+    display: flex; flex-direction: column;
+}
+.testimonialsec img{
+
+    margin-bottom: 20px;
+}
+h4.author-name{
+    margin-top: 30px;
+}
+.givecontents {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.quote {
+    margin-top: 20px;
+}
+.givesection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.aboutimage {
+    padding: 0px;
+}
+.logo-col img {
+    width: 75%;
+}
+header .main-header {
+    height: 120px;
+}
+.slider-area .slick-dots{
+    display: none !important;
+}
+.slider-area span.arrow.next.slick-arrow{
+    display: none !important;
+}
+/****************missison************/
+.pagebanner {
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+}
+.player__video.viewer{
+    width: 100%!important;
+}
+.moovie {
+    width: 100% !important;
+}
+.poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+}
+.player__video.viewer{
+    height: 315px !important;
+}
+.primarybtn{
+    padding: 14px 15px !important;
+}
+/**********boardmember********/
+.bannertitle{
+    font-size: 40px;
+}
+.boardsection{
+    padding-top: 40px;
+}
+.boardsection .innertitle {
+    margin-bottom: 20px;
+}
+.stfname{
+    padding-top: 10px;
+}
+.colstaff {
+    margin-bottom: 40px;
+}
+.borderline {
+    border-top: 1px solid #0f75bc;
+    width: 100%;
+    height: max-content;
+    margin: 0px auto 30px auto;
+}
+.pdr{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.grantsec .whitebtn {
+    margin-top: 20px;
+    padding: 14px 24px !important;
+}
+/*************staff************/
+.staffwrapper.center-center{
+    display: block;
+}
+.staffcol {
+    margin-bottom: 30px;
+    margin-right: 0px;
+    text-align: center;
+}
+.staffsec {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.stafftitle{
+    margin-bottom: 30px;
+}
+.staffimg {
+    width: 100%;
+}
+.staffseccontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/************************financial info*************/
+button.accordion {
+    width: 100%;
+    background: #0f75bc;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tab{
+    width: 100%;
+    border-right: none;
+        padding-right: 0px;
+}
+.tabcontent {
+    width: 100%;
+    padding: 25px 0px;
+}
+.tabsection .row{
+    margin: auto;
+}
+
+.tabsection {
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.downloadwrap h3 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.downloads {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+/*******publications**********/
+.publicationsection h3{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.dwn{
+    height: 250px;
+}
+.publicationsection{
+    margin-top: 60px;
+        margin-bottom: 25px;
+}
+/***********scholarships_grants*************/
+.tabsection.grandsecconent .tab {
+    min-height: 100%;
+    margin-bottom: 20px;
+}
+.tabsection.grandsecconent {
+    padding-bottom: 25px;
+}
+.tabsection.grandsecconent .innertitle {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+/***************scholarships_grants_leaders_for_the_future********/
+.leadersec .align-center.row{
+    margin: auto;
+}
+.leadersec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.leadersec  h3.innertitle {
+    margin-bottom: 20px;
+}
+.listimg  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.listing {
+    padding: 20px 0px;
+}
+.listimg {
+    padding: 0px;
+    margin-top: 20px;
+}
+.leadersec .downloadwrap {
+    margin: auto;
+}
+/**********testimonial*************/
+.testimonialvideotop .poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+    height: 320px;
+    top: 16%;
+}
+.testimonialwid {
+    padding-top: 50px;
+}
+.testimonialwid .innertitle {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.testimonialwid p{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+h3.sentiments span{
+    font-size: 55px;
+
+    margin-left: -8px;
+
+}
+h3.sentiments {
+    font-size: 22px;
+    margin-top: 45px;
+    min-height: auto;
+}
+.studcol {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.testimonial-other {
+    padding-bottom: 80px;
+}
+.testimonial-student .row{
+    margin: auto;
+}
+/************waystogive*********/
+.tabimg {
+    height: 470px;
+    width: 100%;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.tabsection.grandsecconent.tabways {
+    padding-bottom: 45px;
+}
+/********donation.html************/
+.formwrap {
+    width: 100%;
+}
+.donationsection .formfield input {
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+.donationsection .formfield div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.form-group {
+    display: block;
+    margin-bottom: 0px;
+}
+.innertitle{
+    font-size: 23px;
+}
+.donorinfo {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/********donation******************/
+.donationtoprow {
+    width: 100%;
+   
+}
+.donationtoprow .col-md-12{
+    padding: 0px;
+}
+.donationtop {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.boximage {
+    width: 100% !important;
+}
+.boxwrap{
+        width: 100%;
+        display: block;
+}
+.donationsection .row {
+    margin: auto;
+    display: block;
+}
+.boxwrapcol{
+        flex: 0 0 100%;
+    max-width: 100%;
+    margin-right: 0px !important;
+
+}
+.donationcol{
+        display: block;
+}
+.boxwrapcol:last-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.boxwrapcol input{
+    width: 100%;
+    margin-left: 0px;
+}
+.listwrapper{
+    width: 100%;
+}
+.donationselect {
+    margin-right: 0px;
+}
+.form-group {
+    display: block;
+}
+.listwrapper label{
+    font-size: 15px;
+}
+.align-center label {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.selectwrap {
+    margin-top: 20px;
+}
+.buttonwrap button{
+    margin-bottom: 20px;
+}
+.slider-area .slick-dots,.slider-area .slick-arrow{
+    display: none !important;
+}
+
+/******mission*******/
+.primarybtn{
+    padding: 14px 15px !important;
+        font-size: 13px !important;
+}
+.hm-abtsection.missionvideosec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.poster_button{
+    width: 100%;
+}
+.poster_layer{
+	    height: 315px !important;
+}
+.poster_center{
+    left: 5px;
+}
+.moovie{
+	height: 315px !important;
+}
+.hm-abtsection.missionvideosec .aboutcontent {
+    margin-left: 0px;
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 25px 0px 25px;
+}
+.miisionvideo {
+    padding: 0px;
+}
+.boardsection .substaff img {
+    height: 345px;
+}
+.mainstaf .colstaff {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 35px;
+}
+.boardsection img {
+    height: 345px;
+}
+.publicationsection .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.publications{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.tabrow .tabcontent{
+	padding: 20px 0px 0px 0px;
+    width: 100%;
+}
+.downloads a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hm-abtsection.missionvideosec .container {
+    padding: 0px;
+}
+.hm-abtsection .aboutcontent {
+    padding: 65px 15px 73px 40px;
+}
+.givecontents .innermaintitle{
+	font-size: 42px;
+}
+
+.scograndsec .tab {
+    width: 100%;
+}
+.tabsection.grandsecconent.scograndsec .tab {
+    height: 100%;
+}
+.scograndsec .tabcontent {
+    width: 100%;
+}
+.tabsection.grandsecconent .innertitle {
+    margin-bottom: 10px;
+}
+.miisionvideo .player__video.viewer{
+        width: 100% !important;
+}
+.miisionvideo .poster_layer{
+        width: 100% !important;
+}
+
+ul.listsec,.leadersec .listimg{
+	    flex: 0 0 100%;
+    max-width: 100%;
+}
+.leadersec p{
+	padding-bottom: 15px;
+}
+.leadersec .loanrow .listing {
+    padding: 20px 15px;
+}
+.listing br{
+	display: none;
+}
+.mgt40{
+	margin-top: 0px;
+}
+.donationsection .align-center input[type="checkbox"]{
+	height: 13px;
+}
+.tabsection.grandsecconent.tabways .tab {
+    width: 100%;
+        display: flex;
+    flex-direction: column;
+}
+.tabsection.grandsecconent.tabways .tablinks{
+	order: 2;
+}
+.tabsection.grandsecconent.tabways  .donate{
+	order: 1;
+}
+.donate {
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+.donorinfo select {
+    margin-bottom: 20px;
+}
+.hm-abtsection.missionvideosec .moovie{
+	width: 100% !important;
+	margin-left: 0px;
+}
+.testimonial-student .align-center {
+    display: block;
+}
+
+
+
+.testimonialvideotop.miisionvideo .poster_layer{
+    margin-top: 23px;
+    height: 327px !important;
+
+}
+.testimonialvideotop .player__video.viewer{
+    height: 327px !important;
+}
+.laut0 {
+    line-height: 30px !important;
+}
+h3.sentiments.laut0 span {
+    margin-top: 0px;
+}
+.testimonial-other {
+    padding-bottom: 40px;
+}
+.hm-abtsection.missionvideosec.testimonialwid p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hm-abtsection.missionvideosec.testimonialwid .poster_center{
+    left: 0px;
+}
+.hm-abtsection.missionvideosec.testimonial-bottom-video .aboutcontent{
+        padding: 15px;
+}
+.testimonial-student .container {
+    padding: 0px;
+}
+.miisionvideo.testimonialvideotop .innertitle{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.testimonialvideotop .player__video.viewer {
+    height: 100% !important;
+}
+}
+/**********************iPhone Landscape***********************************************************************/
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+      /*************index*******************/
+/*************index*******************/
+.container {
+    width: 100% !important;
+}
+.mobile {
+    display: block !important;
+}
+.blogcol2 .mobile{
+    display: inline-flex !important;
+}
+.desktop {
+    display: none;
+}
+.slider-content h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.social {
+    margin-bottom: 32px;
+}
+.single-slider {
+    height: 410px;
+    display: flex !important;
+    align-items: center;
+}
+.slider-content {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    bottom: 0;
+    position: relative;
+}
+.bluebox.eventcol{
+    height: 110px;
+    min-height: 110px;
+}
+.bluebox  img{
+    display: none;
+}
+.bluboxwrap {
+    text-align: center;
+    margin-right: 0px;
+}
+.eventcontent{
+    padding: 18px 30px;
+}
+.slider-content .btnwrapper {
+    display: flex;
+    justify-content: center;
+}
+.btnwrapper .whitebtn {
+    padding: 14px 20px !important;
+    
+}
+.quote h4{
+    text-align: left;
+    margin-top: 25px;
+}
+.headerow {
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slider-area span.arrow.next.slick-arrow{
+    bottom: 55px;
+    right: 15px;
+}
+.events-section {
+    display: block;
+}
+.eventcol{
+    width: 55% !important;
+    height: 278px;
+}
+.flip-card img{
+        min-height: 278px;
+}
+.flip-card-back{
+        padding-right: 0px;
+}
+.flip-card:hover .contentevent .eventday::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #ffffff;
+    width: 100px;
+    margin-left: 17px;
+    top: 30%;
+}
+.aboutimage img{
+    height: 400px;
+    width: 100%;
+}
+.aboutimage:after {
+    
+    height: 0px;
+    width: 0px;
+    margin-left: 0;
+    border: none;
+}
+.hm-abtsection {
+    padding: 0px;
+}
+.innermaintitle{
+    font-size: 30px;
+}
+.innersubmain{
+    font-size: 20px;
+}
+.aboutcontent {
+    padding: 60px 15px 80px 15px;
+    margin-left: 0px;
+}
+.flip-card1 {
+    display: none;
+}
+.blogcol2 {
+    background-color: #0f75bc;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.givesectionrow{
+    text-align: center;
+}
+.blogcol2 h2.eventtitle,.blogcol2 p{
+    color: #ffffff;
+}
+.hmblogsec {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.blogcol p{
+    margin-top: 15px;
+        margin-bottom: 10px;
+}
+h2.eventtitle {
+    margin-top: 10px;
+}
+.blogcol {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testicontent{
+    width: 100%;
+}
+.testimonialsec {
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+.right{
+    text-align: left !important;
+}
+footer.main-footer,footer.main-footer .right{
+    text-align: center !important;
+}
+section.footer-mid-section p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section.footer-mid-section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    height: 100%;
+}
+#cop { order: 2; }
+#soc { order: 1; }
+#priv { order: 3; }
+section.footer-mid-section .row{
+    display: flex; flex-direction: column;
+}
+.testimonialsec img{
+
+    margin-bottom: 20px;
+}
+h4.author-name{
+    margin-top: 30px;
+}
+.givecontents {
+    padding-right: 15px;
+}
+.quote {
+    margin-top: 20px;
+}
+.givesection {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.aboutimage {
+    padding: 0px;
+}
+.logo-col img {
+    width: 75%;
+}
+header .main-header {
+    height: 120px;
+}
+/****************missison************/
+.pagebanner {
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+}
+.player__video.viewer{
+    width: 100%!important;
+}
+.moovie {
+    width: 100% !important;
+}
+.poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+}
+.player__video.viewer{
+    height: 315px !important;
+}
+.aboutcontent{
+    width: 100%;
+    max-width: 100%;
+}
+.col-md-6.miisionvideo {
+    padding: 0px;
+}
+/****************missison************/
+.pagebanner {
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+}
+.player__video.viewer{
+    width: 100%!important;
+}
+.moovie {
+    width: 100% !important;
+}
+.poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+}
+.player__video.viewer{
+    height: 315px !important;
+}
+.primarybtn{
+    padding: 14px 15px !important;
+}
+/**********boardmember********/
+.bannertitle{
+    font-size: 40px;
+}
+.boardsection{
+    padding-top: 40px;
+}
+.boardsection .innertitle {
+    margin-bottom: 20px;
+}
+.stfname{
+    padding-top: 10px;
+}
+.colstaff {
+    margin-bottom: 40px;
+}
+.borderline {
+    border-top: 1px solid #0f75bc;
+    width: 100%;
+    height: max-content;
+    margin: 0px auto 40px auto;
+}
+.pdr{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.grantsec .whitebtn {
+    margin-top: 20px;
+    padding: 14px 24px !important;
+}
+.colstaff {
+    width: 50%;
+}
+/*************staff************/
+.staffwrapper.center-center{
+    justify-content: space-between;
+}
+.staffcol {
+    margin-bottom: 30px;
+    margin-right: 0px;
+    text-align: center;
+    width: 48%;
+    margin-left: 0;
+}
+.staffsec {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.stafftitle{
+    margin-bottom: 30px;
+}
+.staffimg {
+    width: 100%;
+}
+.staffseccontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/************************financial info*************/
+button.accordion {
+    width: 100%;
+    background: #0f75bc;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tab{
+    width: 100%;
+    border-right: none;
+        padding-right: 0px;
+}
+.tabcontent {
+    width: 100%;
+    padding: 25px 0px;
+}
+.tabsection .row{
+    margin: auto;
+}
+
+.tabsection {
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.downloadwrap h3 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.downloads {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+/*******publications**********/
+.publicationsection h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.dwn{
+    height: 250px;
+}
+.publicationsection{
+    margin-top: 60px;
+}
+.publications {
+    margin-bottom: 47px;
+    width: 50%;
+}
+.publicationsection {
+   
+    margin-bottom: 25px;
+}
+/***********scholarships_grants*************/
+.tabsection.grandsecconent .tab {
+    min-height: 100%;
+    margin-bottom: 20px;
+}
+.tabsection.grandsecconent {
+    padding-bottom: 25px;
+}
+/***************scholarships_grants_leaders_for_the_future********/
+.leadersec .align-center.row{
+    margin: auto;
+}
+.leadersec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.leadersec  h3.innertitle {
+    margin-bottom: 20px;
+}
+.listimg  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.listing {
+    padding: 20px 0px;
+}
+.listimg {
+    padding: 0px;
+    margin-top: 20px;
+}
+.leadersec .downloadwrap {
+    margin: auto;
+}
+/**********testimonial*************/
+.testimonialvideotop .poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+    height: 320px;
+    top: 16%;
+}
+.testimonialwid {
+    padding-top: 50px;
+}
+.testimonialwid .innertitle {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.testimonialwid p{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+h3.sentiments span{
+    font-size: 55px;
+
+    margin-left: -8px;
+
+}
+h3.sentiments {
+    font-size: 22px;
+    margin-top: 30px;
+    min-height: auto;
+}
+.studcol {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.testimonial-other {
+    padding-bottom: 80px;
+}
+.testimonial-student .row{
+    margin: auto;
+}
+/************waystogive*********/
+.tabimg {
+    height: 470px;
+    width: 100%;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.tabsection.grandsecconent.tabways {
+    padding-bottom: 45px;
+}
+
+/********donation.html************/
+.formwrap {
+    width: 100%;
+}
+.donationsection .formfield input {
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+.donationsection .formfield div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.form-group {
+    display: block;
+    margin-bottom: 0px;
+}
+.innertitle{
+    font-size: 23px;
+}
+.donorinfo {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/********donation******************/
+.donationtoprow {
+    width: 100%;
+   
+}
+.donationtoprow .col-md-12{
+    padding: 0px;
+}
+.donationtop {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.boximage {
+    width: 100% !important;
+}
+.boxwrap {
+    width: 100%;
+    /* display: block; */
+    justify-content: space-between;
+}
+.donationsection .row {
+    margin: auto;
+    display: block;
+}
+.boxwrapcol {
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-right: 0px !important;
+}
+.donationcol{
+        display: block;
+}
+.boxwrapcol:last-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.boxwrapcol input{
+    width: 100%;
+    margin-left: 0px;
+}
+.listwrapper{
+    width: 100%;
+}
+.donationselect {
+    margin-right: 0px;
+}
+.form-group {
+    display: block;
+}
+.listwrapper label{
+    font-size: 15px;
+}
+.align-center label {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.selectwrap {
+    margin-top: 20px;
+}
+.buttonwrap button{
+    margin-bottom: 20px;
+}
+.slider-area .slick-dots,.slider-area .slick-arrow{
+    display: none !important;
+}
+
+/******mission*******/
+.primarybtn{
+    padding: 14px 15px !important;
+}
+.hm-abtsection.missionvideosec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.poster_button{
+    width: 100%;
+}
+.poster_layer{
+	    height: 315px !important;
+}
+.poster_center{
+    left: 5px;
+        top: 57.5%;
+}
+.moovie{
+	height: 315px !important;
+}
+.hm-abtsection.missionvideosec .aboutcontent{
+	margin-left: 0px;
+    width: 100%;
+    max-width: 100%;
+        padding: 40px;
+}
+.miisionvideo {
+    padding: 0px;
+}
+.publicationsection .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.publications{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.tabrow .tabcontent {
+    padding: 40px 0px 0px 0px;
+    width: 100%;
+}
+.givecontents .innermaintitle{
+	font-size: 49px;
+}
+section.footer-mid-section {
+    padding-top: 55px;
+    padding-bottom: 45px;
+    height: 100%;
+}
+div#priv a {
+    display: flex;
+    justify-content: center;
+}
+
+
+.scograndsec .tab {
+    width: 80%;
+}
+.tabsection.grandsecconent.scograndsec .tab {
+    height: 100%;
+}
+.scograndsec .tabcontent {
+    width: 100%;
+}
+.tabsection.grandsecconent .innertitle {
+    margin-bottom: 10px;
+}
+.miisionvideo .player__video.viewer{
+        width: 100% !important;
+}
+.miisionvideo .poster_layer{
+        width: 100% !important;
+}
+
+ul.listsec,.leadersec .listimg{
+	    flex: 0 0 100%;
+    max-width: 100%;
+}
+.leadersec p{
+	padding-bottom: 15px;
+}
+.leadersec .loanrow .listing {
+    padding: 20px 15px;
+}
+.listing br{
+	display: none;
+}
+.mgt40{
+	margin-top: 0px;
+}
+.donationsection .align-center input[type="checkbox"]{
+	height: 13px;
+}
+
+.tabsection.grandsecconent.tabways .tab {
+    width: 85%;
+        display: flex;
+    flex-direction: column;
+}
+.tabsection.grandsecconent.tabways .tablinks{
+	order: 2;
+}
+.tabsection.grandsecconent.tabways  .donate{
+	order: 1;
+}
+.donate {
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+.donorinfo select {
+    margin-bottom: 20px;
+}
+.downloadwrap.row.downloadwrap2{
+	justify-content: space-between;
+}
+.downloadwrap.row.downloadwrap2 .downloads{
+	width: 49%;
+}
+.leadersec .downloads{
+	    width: 50%;
+}
+.hm-abtsection.missionvideosec .moovie{
+	    margin-left: 0px;
+}
+.hm-abtsection.missionvideosec .moovie{
+	width: 100% !important;
+}
+
+
+
+.testimonialvideotop.miisionvideo .poster_layer {
+    margin-top: 0px;
+    height: 335px !important;
+}
+.testimonialvideotop .player__video.viewer{
+    height: 295px !important;
+}
+.laut0 {
+    line-height: 30px !important;
+}
+h3.sentiments.laut0 span {
+    margin-top: 0px;
+}
+.testimonial-other {
+    padding-bottom: 40px;
+}
+.hm-abtsection.missionvideosec.testimonialwid p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hm-abtsection.missionvideosec.testimonialwid .poster_center{
+    left: 0px;
+}
+.hm-abtsection.missionvideosec.testimonial-bottom-video .aboutcontent{
+        padding: 15px;
+}
+.testimonial-student .container {
+    padding: 0px;
+}
+.testimonial-student .container .align-center{
+    display: block;
+}
+.miisionvideo.testimonialvideotop .innertitle{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.homeevent.events-section .eventcol {
+    width: 100% !important;
+    }
+    .hm-abtsection  .aboutcontent {
+    background-color: #25aae1;
+    padding: 58px 56px 68px 58px;
+    margin-left: 0px;
+    z-index: 99;
+    width: 100%;
+    max-width: 100%;
+}
+}
+
+/*************************iPad Portrait************************************************************************************************/
+@media only screen and (max-width: 985px) and (min-width: 768px) {
+      /*************index*******************/
+.container {
+    width: 100% !important;
+}
+.mobile {
+    display: block !important;
+}
+.copyright .mobile br{
+    display: none;
+}
+.desktop {
+    display: none;
+}
+.slider-content h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.single-slider{
+        height: 550px;
+}
+.slider-content{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.headerow {
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slider-area span.arrow.next.slick-arrow{
+    bottom: 55px;
+    right: 15px;
+}
+.events-section {
+    display: block;
+}
+.eventcol{
+    width: 55% !important;
+     max-width: 100%;
+}
+.aboutimage img {
+    height: 434px;
+    width: 100%;
+}
+.aboutimage:after {
+    
+    height: 0px;
+    width: 0px;
+    margin-left: 0;
+    border: none;
+}
+.hm-abtsection {
+ 
+    padding: 40px 15px;
+}
+.aboutcontent{
+        padding: 15px;
+    margin-left: 0px;
+}
+.hmblogsec {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.blogcol p{
+    margin-top: 15px;
+        margin-bottom: 10px;
+}
+h2.eventtitle {
+    margin-top: 10px;
+    font-size: 22px;
+}
+.blogcol {
+    text-align: center;
+    margin-bottom: 30px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.logrow{
+    justify-content: center;
+}
+.testicontent{
+    width: 100%;
+}
+.testimonialsec {
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.right{
+    text-align: left !important;
+}
+/*footer.main-footer,footer.main-footer .right{
+    text-align: center !important;
+}*/
+section.footer-mid-section p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section.footer-mid-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+.testimonialsec img{
+
+    margin-bottom: 20px;
+}
+h4.author-name{
+    margin-top: 30px;
+}
+.givecontents {
+    padding-right: 15px;
+}
+.quote {
+    margin-top: 20px;
+}
+.givesection{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.aboutimage {
+    padding: 0px;
+}
+.btnwrapper .whitebtn{
+    padding: 14px 15px !important;
+    margin-right: 5px;
+}
+.btnwrapper .primarybtn {
+    padding: 14px 10px !important;
+}  
+.logo-col img {
+    width: 80%;
+}
+.bluebtn{
+    padding: 14px 15px !important;
+}
+header .main-header {
+    height: 120px;
+}
+.bluebox h4{
+    font-size: 30px;
+}
+.aboutimage{
+    margin: auto;
+}   
+.wid100 {
+    width: 100%;
+    max-width: 100%;
+
+    flex: 0 0 100%;
+}
+.givesectionrow{
+    display: block;
+}
+section.footer-mid-section p{
+        font-size: 13px;
+}
+/****************missison************/
+.pagebanner {
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+}
+.player__video.viewer{
+    width: 100%!important;
+}
+.moovie {
+    width: 100% !important;
+}
+.poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+}
+.player__video.viewer{
+    height: 315px !important;   
+}
+.primarybtn{
+    padding: 14px 15px !important;
+}
+/**********boardmember********/
+.bannertitle{
+    font-size: 40px;
+}
+.boardsection{
+    padding-top: 40px;
+}
+.boardsection .innertitle {
+    margin-bottom: 20px;
+}
+.stfname{
+    padding-top: 10px;
+}
+.colstaff {
+    margin-bottom: 40px;
+}
+.borderline {
+    border-top: 1px solid #0f75bc;
+    width: 100%;
+    height: max-content;
+    margin: 0px auto 40px auto;
+}
+.pdr{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.grantsec .whitebtn {
+    margin-top: 30px;
+    padding: 14px 24px !important;
+}
+.colstaff {
+    width: 50%;
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+/*************staff************/
+.staffwrapper.center-center{
+    justify-content: space-between;
+}
+.staffcol {
+    margin-bottom: 30px;
+    margin-right: 0px;
+    text-align: center;
+    width: 49%;
+    margin-left: 0px;
+}
+.staffsec {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.stafftitle{
+    margin-bottom: 30px;
+}
+.staffimg {
+    width: 100%;
+}
+.staffseccontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/********************finance*************/
+
+.tabsection .row.mobile {
+    display: none !important;
+}
+.tabsection .row.desktop{
+    display: block;
+}
+.tabsection {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 100%;
+    display: flex;
+}
+.tabcontent {
+    padding: 0px 15px 0px 15px;
+    width: 100%;
+}
+.tab button span{
+    /*line-height: normal;*/
+}
+.downloadwrap.row {
+    margin: auto;
+}
+/*******publications**********/
+.publicationsection h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.dwn{
+    height: 250px;
+}
+.publicationsection{
+    margin-top: 60px;
+}
+.publications {
+    margin-bottom: 47px;
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.publicationsection {
+   
+    margin-bottom: 25px;
+}
+/*******scholarships_grants**********/
+.tabsection.grandsecconent .tab {
+    min-height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+/***************scholarships_grants_leaders_for_the_future********/
+.leadersec .align-center.row{
+    margin: auto;
+}
+.leadersec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.leadersec  h3.innertitle {
+    margin-bottom: 20px;
+}
+.listimg  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.listing {
+    padding: 20px 0px;
+}
+.listimg {
+    padding: 0px;
+    margin-top: 20px;
+}
+.leadersec .downloadwrap {
+    margin: auto;
+}
+/**********testimonial*************/
+.testimonialvideotop .poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+    height: 320px;
+    top: 11%;
+}
+.testimonialwid {
+    padding-top: 50px;
+}
+.testimonialwid .innertitle {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.testimonialwid p{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+h3.sentiments span{
+    
+}
+h3.sentiments {
+   
+    margin-top: 50px;
+    min-height: auto;
+}
+.studcol {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.testimonial-other {
+    padding-bottom: 80px;
+}
+.testimonial-student .row{
+    margin: auto;
+}
+.testimonial-other .col-md-6 {
+    width: 100% !important;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+/************waystogive*********/
+.tabimg {
+    height: 470px;
+    width: 100%;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.tabsection.grandsecconent.tabways {
+    padding-bottom: 45px;
+}
+/********donation.html************/
+.formwrap {
+    width: 100%;
+}
+.donationsection .formfield input {
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+.donationsection .formfield div {
+    padding-left: 0px;
+    padding-right: 0px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.form-group {
+    display: block;
+    margin-bottom: 0px;
+}
+.innertitle{
+    font-size: 23px;
+}
+.donorinfo {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/********donation******************/
+.donationtoprow {
+    width: 100%;
+   
+}
+.donationtoprow .col-md-12{
+    padding: 0px;
+}
+.donationtop {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.boximage {
+    width: 100% !important;
+}
+.boxwrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.donationsection .row {
+    margin: auto;
+    display: block;
+}
+.boxwrapcol {
+    flex: 0 0 49%;
+    max-width: 49%;
+    margin-right: 0px !important;
+}
+.donationcol{
+        display: block;
+}
+.boxwrapcol:last-child {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.boxwrapcol input{
+    width: 100%;
+    margin-left: 0px;
+}
+.listwrapper{
+    width: 100%;
+}
+.donationselect {
+    margin-right: 0px;
+}
+.form-group {
+    display: block;
+}
+.listwrapper label{
+    font-size: 15px;
+}
+.align-center label {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.selectwrap {
+    margin-top: 20px;
+}
+.buttonwrap button{
+    margin-bottom: 20px;
+}
+.slider-area .slick-dots{
+    display: none !important;
+}
+
+/******mission*******/
+.primarybtn{
+    padding: 14px 15px !important;
+}
+.hm-abtsection.missionvideosec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.poster_button{
+    width: 100%;
+}
+.poster_layer{
+	    height: 315px !important;
+}
+.poster_center{
+    left: 5px;
+}
+.miisionvideo.testimonialvideotop .poster_center{
+        left: 5px;
+}
+.moovie{
+	height: 315px !important;
+}
+.hm-abtsection.missionvideosec .aboutcontent{
+	margin-left: 0px;
+    width: 100%;
+    max-width: 100%;
+        padding: 40px;
+}
+.miisionvideo {
+    padding: 0px;
+    margin: auto;
+}
+.hm-abtsection.missionvideosec {
+    padding: 40px 0px;
+}
+.boardsection .substaff img {
+    height: 365px;
+}
+.boardsection img {
+    height: 365px;
+}
+.publicationsection .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.publications{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.tab {
+    width: 85%;
+    border: none;
+}
+.tabrow .tabcontent {
+    padding: 40px 0px 0px 0px;
+    width: 100%;
+}
+.tab button{
+	line-height: 30px;
+}
+.tabsection .tab button {
+     line-height: 50px; 
+}
+.hm-abtsection .aboutcontent {
+    padding: 40px 15px;
+}
+.blogcol2 a.primarybtn.mobile{
+	display: none !important;
+}
+.flip-card1 .whitebtn {
+    font-family: 'Poppins-Regular' !important;
+    padding: 14px 29px !important;
+}
+.tabsection.grandsecconent.scograndsec .tab {
+    height: 100%;
+    width: 80%;
+    border: none;
+}
+.scograndsec .tabcontent {
+    width: 100%;
+    padding: 0px;
+}
+.miisionvideo .player__video.viewer{
+        width: 100% !important;
+}
+.miisionvideo .poster_layer{
+        width: 100% !important;
+}
+
+
+
+ul.listsec,.leadersec .listimg{
+	    flex: 0 0 100%;
+    max-width: 100%;
+}
+.leadersec p{
+	padding-bottom: 15px;
+}
+.leadersec .loanrow .listing {
+    padding: 20px 15px;
+}
+.listing br{
+	display: none;
+}
+.mgt40{
+	margin-top: 0px;
+}
+.leadersec .downloadwrap {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.donationsection .align-center input[type="checkbox"]{
+	height: 13px;
+}
+
+.tabsection.grandsecconent.tabways .tab {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.tabsection.grandsecconent.tabways .tablinks{
+	order: 2;
+}
+.tabsection.grandsecconent.tabways  .donate{
+	order: 1;
+}
+.donate {
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+.tabsection.grandsecconent.tabways  .tab button {
+    line-height: 45px;
+}
+.donorinfo select {
+    margin-bottom: 20px;
+}
+.boxwrap {
+    width: 100%;
+    /* display: block; */
+    justify-content: space-between;
+}
+.tabsection.grandsecconent.tabways .tabcontent{
+	padding: 0px;
+}
+.downloadwrap.row.downloadwrap2 {
+    margin-left: -15px;
+}
+.hm-abtsection.missionvideosec .moovie{
+	margin-left:0px;
+}
+
+
+
+
+.testimonialvideotop.miisionvideo .poster_layer{
+    margin-top: 9px;
+    height: 327px !important;
+
+}
+.testimonialvideotop .player__video.viewer{
+    height: 327px !important;
+}
+.laut0 {
+    line-height: 55px !important;
+}
+h3.sentiments.laut0 span {
+    margin-top: 0px;
+}
+.hm-abtsection.missionvideosec.testimonial-bottom-video .aboutcontent{
+    width: 100%;
+}
+.hm-abtsection.missionvideosec.testimonial-bottom-video .miisionvideo{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.hm-abtsection.missionvideosec.testimonial-bottom-video .row{
+    display: block;
+}
+.hm-abtsection.missionvideosec.testimonial-bottom-video .moovie{
+    width: 100% !important
+}
+.testimonial-student .align-center {
+    display: block;
+    padding-left: 0px;
+}
+.homeevent.events-section .eventcol {
+    width: 100% !important;
+}
+.flip-card:hover .contentevent .eventday::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #ffffff;
+    width: 100px;
+    margin-left: 17px;
+    top: 30%;
+}
+}
+
+/**************iPad Landscape*********************************************************************************************************/
+@media only screen and (max-width: 1024px) and (min-width: 986px) {
+    .container {
+        width: 100% !important;
+    }
+    .slider-content{
+        padding-left: 15px;
+    }
+   .flip-card img, .eventcol {
+    height: 280px;
+    min-height: 280px;
+}
+section.footer-mid-section p{
+        font-size: 14px;
+}
+/****************missison************/
+.pagebanner {
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+}
+.player__video.viewer{
+    width: 100%!important;
+}
+.moovie {
+    width: 100% !important;
+}
+.poster_layer {
+    background-size: cover !important;
+    width: 100% !important;
+}
+
+.primarybtn{
+    padding: 14px 15px !important;
+}
+.aboutcontent{
+        width: 50%;
+    max-width: 50%;
+        margin-left: -15px;
+}
+.pdr {
+    padding-left: 15px !important;
+}
+.grantsec .whitebtn {
+    padding: 14px 20px !important;
+}
+
+.staffcol {
+    margin-right: 37.5px;
+    text-align: center;
+    margin-left: 37.5px;
+}
+/********************finance*************/
+.downloadwrap.row {
+    margin: auto;
+}
+/***************scholarships_grants_leaders_for_the_future********/
+.leadersec .align-center.row{
+    margin: auto;
+}
+.leadersec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.leadersec  h3.innertitle {
+    margin-bottom: 20px;
+}
+.listimg  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.listing {
+    padding: 20px 0px;
+    padding-right: 15px;
+}
+.listimg {
+    padding: 0px;
+    margin-top: 20px;
+}
+.leadersec .downloadwrap {
+    margin: auto;
+}
+h3.sentiments{
+    font-size: 38px;
+}
+h3.sentiments span{
+    font-size: 75px;
+        margin-left: -13px;
+            padding-top: 12px;
+}
+/************waystogive*********/
+.tabimg {
+    height: 470px;
+    width: 100%;
+    margin-top: 50px;
+    object-fit: cover;
+}
+.tabcontent{
+    padding: 0px 15px 0px 22px;
+}
+.donationsection{
+        padding-left: 15px;
+    padding-right: 15px;
+}
+.boximage {
+    width: 60% !important;
+}
+.boxwrapcol{
+    font-size: 32px;
+}
+
+.hm-abtsection.missionvideosec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.poster_button{
+    width: 100%;
+}
+.poster_layer{
+	    height: 315px !important;
+}
+.poster_center{
+    left: 5px;
+}
+.moovie{
+	height: 315px !important;
+}
+.hm-abtsection.missionvideosec .aboutcontent{
+	margin-left: 0px;
+    width: 100%;
+    max-width: 100%;
+        padding: 40px;
+}
+.miisionvideo {
+    padding: 0px;
+    margin: auto;
+}
+.player__video.viewer{
+	height: 315px !important;
+}
+.publicationsection .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.publications{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.tab button{
+	line-height: 30px;
+}
+.tabrow .tab{
+    width: 34%;
+}
+.tabrow .tabcontent{
+	    padding: 0px 0px 0px 0px;
+    width: 66%;
+}
+.tabsection {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+button.tablinks.active span {
+    line-height: 23px;
+}
+.grantsec .right {
+    padding-right: 15px;
+}
+.mgt40{
+	margin-top: 0px;
+}
+.leadersec .loanrow .listing {
+    padding: 20px 15px;
+}
+.leadersec .downloadwrap {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.donationsection .align-center input[type="checkbox"]{
+	height: 13px;
+}
+.tabsection .tab button {
+    line-height: 50px;
+}
+
+
+
+.testimonialvideotop .player__video.viewer {
+    height: 430px !important;
+}
+.testimonialvideotop.miisionvideo .poster_layer{
+     height: 430px !important;
+}
+.hm-abtsection.missionvideosec .moovie{
+    margin-left:0px;
+}
+.testimonialwid p {
+    margin-top: 137px;
+}
+.hm-abtsection.missionvideosec.testimonial-bottom-video .poster_center{
+        width: 80%;
+}
+.hm-abtsection.missionvideosec.missionlat .poster_center{
+        width: 72%;
+}
+.homeevent .flip-card-front h2.eventtitle{
+        font-size: 13px;
+}
+.slider-area span.arrow.next.slick-arrow{
+        right: 15px;
+}
+}
+
+/**************tester***************/
+@media only screen and  (min-width: 1837px) {
+
+}
+
+/**************tester***************/
+@media only screen and (max-width: 1366px) and (min-width: 768px) {
+
+}
+/**************tester***************/
+@media only screen and  (min-width: 2110px) {
+ 
+}
+/**************tester***************/
+@media only screen and  (min-width: 2374px) {
+
+}
+
+/**************tester***************/
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+
+}
+/**************laptop***************/
+@media only screen and (max-width: 1280px) and (min-width: 800px) {
+
+
+
+}
+/**************MAC***************/
+@media only screen and (max-width: 2880px) and (min-width: 1800px) {
+
+}
+
+/**********************iPhone Landscape***********************************************************************/
+@media only screen and (max-width: 731px) and (min-width: 411px) {
+.testimonialvideotop.miisionvideo .poster_layer {
+    margin-top: -12px;
+    height: 327px !important;
+}
+}
+@media only screen and (max-width: 360px) and (min-width: 640px) {
+.testimonialvideotop .player__video.viewer {
+    height: 300px !important;
+}
+}
