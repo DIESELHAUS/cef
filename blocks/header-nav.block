@@ -39,7 +39,7 @@
       
     {.end}
       
-      <li><a href="https://www.givecentral.org/appeals-form-registration/acp5c47a6d260464/user/guest"><button class="primarybtn">donate now</button></a></li>
+      <li><a href="https://www.givecentral.org/appeals-form-registration/acp5c47a6d260464/user/guest" target="_blank"><button class="primarybtn">donate now</button></a></li>
       
   </ul>
 </nav>
