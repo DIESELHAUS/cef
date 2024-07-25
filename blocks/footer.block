@@ -4,7 +4,7 @@
         <div class="container container-xl">
             <div class="row align-center">
                 <div class="col-md-6 copyright" id="cop">
-                    <p class="desktop">© Copyright 2024 - Catholic Education Foundation Diocese of Joliet</p>
+                    <p class="desktop">© Copyright {addedOn|date %Y} - Catholic Education Foundation Diocese of Joliet</p>
                     <p class="mobile">© Copyright 2024 <br> Catholic Education Foundation<br> Diocese of Joliet</p>
                 </div>
                 <div class="col-md-4">
