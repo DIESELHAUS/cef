@@ -8,8 +8,8 @@
           </div>-->
           {body}
           <div class="btnwrapper">
-            <a href="" class="whitebtn">Learn more</a>
-            <a href="" class="primarybtn">donate now</a>
+            <a href="/scholarship-grants-css/cef-school-scholarships" class="whitebtn">Learn more</a>
+            <a href="/get-involved/donate" class="primarybtn">donate now</a>
           </div>
       </div>
   </div>
