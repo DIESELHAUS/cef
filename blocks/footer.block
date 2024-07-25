@@ -10,15 +10,14 @@
                 <div class="col-md-4">
                     <div class="social">
                         <ul class="center-center" id="soc">
-                            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                            
+                            <li><a href="https://x.com/cefjoliet" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/CatholicEducationFoundationDioceseofJoliet/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/catholic-education-foundation-diocese-of-joliet" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-2 right" id="priv">
-                    <a href="#"><p>Privacy Policy</p></a>
+                    <a href="/about-privacy-policy"><p>Privacy Policy</p></a>
                 </div>
             </div>
         </div>
