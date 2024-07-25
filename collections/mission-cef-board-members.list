@@ -54,6 +54,8 @@
     </div>
 </section>
 
+{@|apply ways-to-give.block}
+
 <!--slider area end-->
 <section style="display:none;">
   <div class="events-section center-center homeevent">
