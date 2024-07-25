@@ -11,7 +11,7 @@
                     <button class="tablinks" onclick="openCity(event, '{collection.fullUrl}', '{urlId}')" data-url="{urlId}" data-id="{id}" data-parenturl="{collection.fullUrl}"><span>{title}</span></button>
                   {.end}
                   
-                  <button class="tablinks" onclick=""><span>Endowed and Current Use Scholarships</span></button>
+                  <button class="tablinks" onclick="window.location.href = '/scholarship-grants-css/endowed-and-current-use-scholarships'"><span>Endowed and Current Use Scholarships</span></button>
                   
                   <div class="donate" style="display:none;">
                     <h5>Donate to the CEF through<br> 
