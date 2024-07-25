@@ -14,3 +14,5 @@
       </div>
   </div>
 </div>
+
+<script>console.log({@|json-pretty})</script>
