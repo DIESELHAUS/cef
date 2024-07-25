@@ -157,15 +157,15 @@
                     <div class="container">
                         <div class="row">
                           <squarespace:query collection="home-section-about" limit="1">
+                            {.repeated section items}
                             <div class="col-md-6 aboutimage">
                                 <img src="{assetUrl}" alt="Avatar">
                             </div>
                             <div class="col-md-6 aboutcontent automargin">
-                                  {.repeated section items}
                                     <h2 class="innermaintitle">{title}</h2>
                                     {body}
-                                  {.end}                                
                             </div>
+                              {.end}                                
                           </squarespace:query>
 
                         </div>
