@@ -189,7 +189,7 @@
                                         <div class="flip-card-back1">
                                             <img src="{assetUrl}" alt="Avatar">
                                             <div class="fliptbtnwrap">
-                                                <a href="" class="whitebtn">Learn more</a>
+                                                <a href="{sourceUrl}" class="whitebtn">Learn more</a>
                                             </div>
                                         </div>
                                       </div>
