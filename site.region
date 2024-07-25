@@ -159,7 +159,7 @@
                           <squarespace:query collection="home-section-about" limit="1">
 
                             <div class="col-md-6 aboutimage">
-                                <img src="{imageUrl}" alt="Avatar">
+                                <img src="{assetUrl}" alt="Avatar">
                             </div>
                             <div class="col-md-6 aboutcontent automargin">
                                   {.repeated section items}
