@@ -157,7 +157,6 @@
                     <div class="container">
                         <div class="row">
                           <squarespace:query collection="home-section-about" limit="1">
-<script>console.log({@|json-pretty})</script>
                             <div class="col-md-6 aboutimage">
                                 <img src="{assetUrl}" alt="Avatar">
                             </div>
