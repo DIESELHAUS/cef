@@ -156,19 +156,19 @@
                 <div class="hm-abtsection"  style="background-image: url('/assets/images/abtbanner.png');">
                     <div class="container">
                         <div class="row">
+                          <squarespace:query collection="home-section-about" limit="1">
+
                             <div class="col-md-6 aboutimage">
-                                <img src="/assets/images/abtimg.png" alt="Avatar">
+                                <img src="{imageUrl}" alt="Avatar">
                             </div>
                             <div class="col-md-6 aboutcontent automargin">
-                                <squarespace:query collection="home-section-about" limit="1">
                                   {.repeated section items}
                                     <h2 class="innermaintitle">{title}</h2>
                                     {body}
-                                  {.end}
-                                </squarespace:query>
-                                
+                                  {.end}                                
                             </div>
-                           
+                          </squarespace:query>
+
                         </div>
                 </div>
             </section>
