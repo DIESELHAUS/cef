@@ -55,7 +55,7 @@
 </section>
 
 <!--slider area end-->
-<section>
+<section style="display:none;">
   <div class="events-section center-center homeevent">
       <div class="col-md-3 bluebox eventcol">
           <div class="bluboxwrap">
