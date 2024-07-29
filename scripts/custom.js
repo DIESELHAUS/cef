@@ -13,6 +13,10 @@ $(document).ready(function() {
     $("header nav").removeClass("toggle-nav");
   });
 
+  $('.homeevent').slick({
+    slidesToShow: 2,
+  });
+
   // Testimonial Slider
   $('.testimonial-slider').slick({
     slidesToShow: 2,
