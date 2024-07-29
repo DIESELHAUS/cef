@@ -143,13 +143,13 @@
                     </div>
                     <img src="/assets/images/navarrow.png" alt="Avatar">
                     </div>
-
+                    <div class="eventSlider">
                     <squarespace:query collection="events" limit="3">
-                    
                       {.repeated section items}
                         {@|apply events.block}
                       {.end}
-                    </squarespace:query>                   
+                    </squarespace:query>      
+                    </div>             
                 </div>
               </section>
               <section>
