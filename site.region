@@ -135,15 +135,14 @@
               </section>
               <!--slider area end-->
               <section>
-                  <div class="col-md-3 bluebox eventcol">
-                      <div class="bluboxwrap">
-                        <p>CEF</p>
-                        <h4>Spotlight</h4>
-                      </div>
-                    <img src="/assets/images/navarrow.png" alt="Avatar">
-                  </div>
                 <div class="events-section center-center homeevent">
-                    
+                    <div class="col-md-3 bluebox eventcol">
+                        <div class="bluboxwrap">
+                          <p>CEF</p>
+                          <h4>Spotlight</h4>
+                        </div>
+                      <img src="/assets/images/navarrow.png" alt="Avatar">
+                    </div>
                     <squarespace:query collection="events" limit="3">
                       {.repeated section items}
                         {@|apply events.block}
