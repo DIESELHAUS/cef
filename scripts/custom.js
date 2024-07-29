@@ -13,8 +13,8 @@ $(document).ready(function() {
     $("header nav").removeClass("toggle-nav");
   });
 
-  $('.eventSlider').slick({
-    slidesToShow: 4,
+  $('.eventcol1').slick({
+    slidesToShow: 2,
   });
 
   // Testimonial Slider
