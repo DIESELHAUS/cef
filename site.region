@@ -143,16 +143,14 @@
                         </div>
                       <img src="/assets/images/navarrow.png" alt="Avatar">
                     </div>
-                    
+                </div>    
+                <div class="homeevent" style="height: 280px;">
                     <squarespace:query collection="events" limit="3">
-                      <div class="homeevent" style="height: 280px;">
                         {.repeated section items}
                           {@|apply events.block}
                         {.end}
-                      </div>  
                     </squarespace:query>    
-                    
-                </div>
+                </div>  
               </section>
               <section style="clear: both;">
                 <div class="hm-abtsection"  style="background-image: url('/assets/images/abtbanner.png');">
