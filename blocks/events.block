@@ -1,4 +1,4 @@
-<div class="flip-card col-md-3 eventcol">
+<div class="flip-card eventcol">
   <div class="flip-card-inner">
     <div class="flip-card-front">
       <img src="{assetUrl}" alt="Avatar">

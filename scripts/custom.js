@@ -13,8 +13,14 @@ $(document).ready(function() {
     $("header nav").removeClass("toggle-nav");
   });
 
-  $('.homeevent1').slick({
-    slidesToShow: 4,
+  $('.homeevent').slick({
+      arrows:false,
+      infinite:true,
+      slidesToShow:3,
+      accessibility:true,
+      autoplay:true,
+      dots: false,
+      autoplaySpeed:2000
   });
 
   // Testimonial Slider
@@ -71,6 +77,8 @@ $(document).ready(function() {
           }
       ]
       });
+
+      
 
   $(".btn-toggle").on("click", function(e) {
     event.stopPropagation(e);
