@@ -13,7 +13,7 @@ $(document).ready(function() {
     $("header nav").removeClass("toggle-nav");
   });
 
-  $('.homeevent').slick({
+  $('.eventcol').slick({
     slidesToShow: 2,
   });
 
