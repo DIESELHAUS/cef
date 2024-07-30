@@ -45,38 +45,32 @@
   </div>
   <div class="mobile-menu-wrapper">
          <ul>
-          <li><a href="#" class="main-menu-item">Home</a>                            
+          <li><a href="/" class="main-menu-item">Home</a>                            
           </li>
-          <li id="tituloMenu1"><a href="#">mission<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+          <li id="tituloMenu1"><a href="#">About Us<i class="fa fa-angle-down" aria-hidden="true"></i></a>
               <div id="menu1" style="display:none;">
               <ul>
-                  <li><a href="#">financial information</a>
-                  </li>
-                  <li><a href="#">publications</a>
-                  </li>
-                  <li><a href="#">cef board members</a>
-                  </li>
-                  <li><a href="#">cef staff</a>
+                  <li><a href="/aboutus">about us</a></li>
+                  <li><a href="/financial-informations">financial information</a></li>
+                  <li><a href="/cef-board-members">cef board members</a></li>
+                  <li><a href="/cef-staff">cef staff</a>
                   </li>
               </ul>
           </div>
           </li>
-          <li><a href="#">testimonial</a></li>
+          <li><a href="/testimonial">impact</a></li>
           <li><a href="#">Get Involved</a></li>
           <li id="tituloMenu2"><a href="#">scholarships & grants<i class="fa fa-angle-down" aria-hidden="true"></i></a>
               <div id="menu2" style="display:none;">
               <ul>
-                  <li><a href="#">CEF grants for catholic school students</a>
-                  </li>
-                  <li><a href="#">leaders for the future grants</a>
-                  </li>
-                  <li><a href="#">ministry grants 2021</a>
-                  </li>
-                 
+                  <li><a href="/get-involved/donate">donate</a></li>
+                  <li><a href="/get-involved/volunteer">volunteer</a></li>
+                  <li><a href="/get-involved/attend">plaid & Khaki Ball</a></li>
+                 <li><a href="/get-involved/womens-giving-circle">women giving circle</a></li>
               </ul>
           </div>
           </li>
-           <li><a href="#">donate now</a></li>
+           <li><a href="https://www.givecentral.org/appeals-form-registration/acp5c47a6d260464/user/guest" target="_blank">donate now</a></li>
       </ul>
   </div>
 </div>
