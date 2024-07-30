@@ -59,16 +59,28 @@
           </div>
           </li>
           <li><a href="/testimonial">impact</a></li>
-          <li><a href="#">Get Involved</a></li>
-          <li id="tituloMenu2"><a href="#">scholarships & grants<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-              <div id="menu2" style="display:none;">
-              <ul>
-                  <li><a href="/get-involved/donate">donate</a></li>
-                  <li><a href="/get-involved/volunteer">volunteer</a></li>
-                  <li><a href="/get-involved/attend">plaid & Khaki Ball</a></li>
-                 <li><a href="/get-involved/womens-giving-circle">women giving circle</a></li>
-              </ul>
-          </div>
+          <li id="tituloMenu2">
+            <a href="#">Get Involved<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <div id="menu2" style="display:none;">
+                <ul>
+                    <li><a href="/get-involved/donate">donate</a></li>
+                    <li><a href="/get-involved/volunteer">volunteer</a></li>
+                    <li><a href="/get-involved/attend">plaid & Khaki Ball</a></li>
+                  <li><a href="/get-involved/womens-giving-circle">women giving circle</a></li>
+                </ul>
+            </div>
+          </li>
+          <li id="tituloMenu3">
+            <a href="#">scholarships & grants<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              <div id="menu3" style="display:none;">
+                <ul>
+                    <li><a href="/scholarship-grants-css/cef-school-scholarships">cef school scholarships</a></li>
+                    <li><a href="/scholarship-grants-css/kazma-family-scholarship">kazma family scholarships</a></li>
+                    <li><a href="/scholarship-grants-css/leaders-for-the-future">leaders for the future</a></li>
+                    <li><a href="/scholarship-grants-css/endowed-and-current-use-scholarships">endowed and current scholarships</a></li>
+                    <li><a href="/scholarship-grants-css/2024-bridge-grant-scholarship">2024 bridge grant scholarship</a></li>
+                </ul>
+            </div>
           </li>
            <li><a href="https://www.givecentral.org/appeals-form-registration/acp5c47a6d260464/user/guest" target="_blank">donate now</a></li>
       </ul>
