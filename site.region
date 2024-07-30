@@ -144,7 +144,7 @@
                       <img src="/assets/images/navarrow.png" alt="Avatar">
                     </div>
                 </div>    
-                <div class="homeevent" style="height: 280px;">
+                <div class="homeevent">
                     <squarespace:query collection="events" limit="3">
                         {.repeated section items}
                           {@|apply events.block}
