@@ -4,7 +4,7 @@
       <img src="{assetUrl}" alt="Avatar">
       <div class="eventcontent">
         <h2 class="eventtitle">{title}</h2>
-        <p class="eventday">August 20, 2021</p>
+        <p class="eventday">August 19, 2021</p>
     </div>
     </div>
     <div class="flip-card-back">
@@ -13,7 +13,7 @@
         <h2 class="eventtitle">{title}</h2>
         <p class="eventday">August 19, 2021</p>
         {body}
-        <a href="#" class="primarybtn">Learn more</a>
+        <a href="{sourceUrl}" target="_blank" class="primarybtn">Learn more</a>
     </div>
     </div>
   </div>
