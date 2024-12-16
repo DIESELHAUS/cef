@@ -1,6 +1,6 @@
 <section>
     {.if mainImage}
-    <div class="pagebanner pd50" style="background-image: url('{mainImage.assetUrl}');">
+    <div class="pagebanner pd50" style="background-image: url('{mainImage.assetUrl}');background-position:right;">
         <div class="container">
              <div class="row">
                 <div class="bannercontent">
