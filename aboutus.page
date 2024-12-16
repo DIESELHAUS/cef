@@ -16,10 +16,11 @@
       <div class="container">
           <div class="row">
               <div class="col-md-6 miisionvideo">
-                 <video id="upload-video4" poster="/assets/images/white.png">
+                 <!--<video id="upload-video4" poster="/assets/images/white.png">
                       <source src="https://mooviejs.com/trailer/trailer.mp4" type="video/mp4">
                       Your browser does not support the video tag.
-                  </video>
+                  </video>-->
+                  <img src = "/assets/images/aboutus.jpeg" />
               </div>
               <div class="col-md-6 aboutcontent automargin">
                   <p>The Catholic Education Foundation of the Diocese of Joliet accomplishes an important mission in our Diocese by raising resources to allow children in need to attend elementary and secondary Catholic schools throughout the Diocese of Joliet.
