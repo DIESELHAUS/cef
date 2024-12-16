@@ -8,7 +8,7 @@
           </div>-->
           {body}
           <div class="btnwrapper">
-            <a href="{sourceUrl}" class="whitebtn">Learn more</a>
+            <a href="{sourceUrl}" class="whitebtn" style="display:none;">Learn more</a>
             <a href="/get-involved/donate" class="primarybtn">donate now</a>
           </div>
       </div>
