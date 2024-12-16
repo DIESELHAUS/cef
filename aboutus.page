@@ -20,7 +20,7 @@
                       <source src="https://mooviejs.com/trailer/trailer.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                   </video>-->
-                  <img src = "/assets/images/aboutus.jpeg" />
+                  <img src = "/assets/images/aboutus.jpeg" width="700" />
               </div>
               <div class="col-md-6 aboutcontent automargin">
                   <p>The Catholic Education Foundation of the Diocese of Joliet accomplishes an important mission in our Diocese by raising resources to allow children in need to attend elementary and secondary Catholic schools throughout the Diocese of Joliet.
