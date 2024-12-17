@@ -60,11 +60,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 miisionvideo">
-                   <img src = "/assets/images/2024_CEF_IMPACT_REPORT-featured.jpg" class="img-fluid" width="600" />
+                   <img src = "/assets/images/2024_CEF_IMPACT_REPORT-featured.jpg" width="750" />
                 </div>
                 <div class="col-md-6 aboutcontent automargin">
                     <h2 class="innermaintitle">2024 CEF Impact Report</h2>
-                    <p><a href="" class="btn btn-info">Click here to preview</a></p>
+                    <p><a href="/assets/images/2024_CEF_IMPACT_REPORT.pdf" target="_blank" class="btn btn-info">Click here to preview</a></p>
                 </div>
             </div>
         </div>
