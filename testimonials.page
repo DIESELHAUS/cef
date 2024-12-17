@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="container story">
-        <div class="row mb-4">
+        <div class="row mb-5">
             <div class="col-md-12">
                 <h3 class="innertitle center">Breyne</h3>
                 <div style="float:right; padding-left: 20px;"><img src = "/assets/images/Breyne.jpg" class="img-fluid" width="600" /></div>
@@ -39,7 +39,7 @@
             </div>
         </div>
 
-        <div class="row mb-4">
+        <div class="row mb-5">
             <div class="col-md-12">
                 <h3 class="innertitle center">Messiah</h3>
                 <div style="float:right; padding-left: 20px;"><img src = "/assets/images/messiah.jpg" class="img-fluid" width="600" /></div>
@@ -60,14 +60,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 miisionvideo">
-                   <video id="upload-video4" poster="/assets/images/white.png">
-                        <source src="https://mooviejs.com/trailer/trailer.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                   <img src = "/assets/images/2024_CEF_IMPACT_REPORT-featured.jpg" class="img-fluid" width="600" />
                 </div>
                 <div class="col-md-6 aboutcontent automargin">
-                    <h2 class="innermaintitle">Meet Frida</h2>
-                    <p>In this short video  speaking to CEF donors about her trip to Rome to meet Pope Francis, and her Faith development at Holy Family Catholic school, Bensenville+ especially at the time that she was diagnosed with Leukemia.</p>
+                    <h2 class="innermaintitle">2024 CEF Impact Report</h2>
+                    <p><a href="" class="btn btn-info">Click here to preview</a></p>
                 </div>
             </div>
         </div>
