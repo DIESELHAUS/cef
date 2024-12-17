@@ -2,7 +2,7 @@
 <section>
     <div class="hm-abtsection missionvideosec testimonialwid">
         <div class="container">
-            <div class="row">
+            <div class="row" style="display:none;">
                 <div class="col-md-12 miisionvideo testimonialvideotop">
                    <h3 class="innertitle center">Video and Letter messages from our CEF Scholars and Others</h3>
                    <video id="upload-video3" poster="/assets/images/white.png">
@@ -11,7 +11,15 @@
                     </video>
                     <p>Video from a Mass and Social Event in loving memory of the namesake who inspired the Joan C. LeTourneau Endowed Scholarship Fund.  Learn more about this special lady - mother, grandmother, Catholic leader and philanthropist.</p>
                 </div>
-                
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src = "/assets/images/Breyne.jpg" />
+                </div>
+                <div class="col-md-6">
+                    <h3 class="innertitle center">Video and Letter messages from our CEF Scholars and Others</h3>
+                    <p>Video from a Mass and Social Event in loving memory of the namesake who inspired the Joan C. LeTourneau Endowed Scholarship Fund.  Learn more about this special lady - mother, grandmother, Catholic leader and philanthropist.</p>
+                </div>
             </div>
         </div>
     </div>
