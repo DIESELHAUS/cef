@@ -13,7 +13,7 @@
         <h2 class="eventtitle">{title}</h2>
         <p class="eventday">August 19, 2021</p>
         {body}
-        <a href="https://www.cefjoliet.org/assets/images/2024%20annual%20appeal.pdf" target="_blank" class="primarybtn">Learn more</a>
+        <a href="https://www.cefjoliet.org/get-involved/annual-appeal" class="primarybtn">Learn more</a>
     </div>
     </div>
   </div>
