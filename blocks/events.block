@@ -11,7 +11,6 @@
         <img src="{assetUrl}" alt="Avatar">
      <div class="contentevent">
         <h2 class="eventtitle">{title}</h2>
-        <p class="eventday">August 19, 2021</p>
         {body}
         <a href="https://www.cefjoliet.org/get-involved/annual-appeal" class="primarybtn">Learn more</a>
     </div>
