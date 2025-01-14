@@ -20,7 +20,13 @@
     <squarespace:query collection="impactstories" limit="3">
       <script type="text/javascript">console.log({@|json})</script>
         {.repeated section items}
-          <div class="row mb-5">
+          
+        {.end}
+      </squarespace:query>  
+
+        {@|apply impactstories.block}
+
+        <div class="row mb-5">
             <div class="col-md-12">
                 <h3 class="innertitle center">Thanks to CEF, Messiah is at home at All Saints</h3>
                 <div style="float:right; padding-left: 20px;"><img src = "/assets/images/messiah.jpg" class="img-fluid" width="600" /></div>
@@ -33,12 +39,6 @@
                 <p>If you can donate, please visit <a href="https://cefjoliet.org" class="text-white">cefjoliet.org</a>.</p>
             </div>
         </div>
-        {.end}
-      </squarespace:query>  
-
-        {@|apply impactstories.block}
-
-        
     </div>
 </section>
 
