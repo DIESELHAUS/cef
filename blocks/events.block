@@ -4,7 +4,6 @@
       <img src="{assetUrl}" alt="Avatar">
       <div class="eventcontent">
         <h2 class="eventtitle">{title}</h2>
-        <p class="eventday">August 19, 2021</p>
     </div>
     </div>
     <div class="flip-card-back">
