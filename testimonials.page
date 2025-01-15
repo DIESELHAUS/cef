@@ -20,11 +20,11 @@
     <squarespace:query collection="impactstories" limit="3">
       <script type="text/javascript">console.log({@|json})</script>
         {.repeated section items}
-          
+          {@|apply impactstories.block}
         {.end}
       </squarespace:query>  
 
-        {@|apply impactstories.block}
+        
 
         <div class="row mb-5">
             <div class="col-md-12">
