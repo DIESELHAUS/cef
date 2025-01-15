@@ -2,22 +2,6 @@
             <div class="col-md-12">
                 <h3 class="innertitle center">{title}</h3>
                 <div style="float:right; padding-left: 20px;"><img src = "/assets/images/Breyne.jpg" class="img-fluid" width="600" /></div>
-                <p>After the passing of Peg Breyne in 2016, her children – Chris, Matt, Pat and Mari – were looking for something for those who knew and loved her to donate to in lieu or flowers. </p>
-                <p>Among the choices was a scholarship in her name for a child attending St. Andrews school in Romeoville – the place she taught for 24 years.</p>
-                <p>“We all went there and she started teaching at St. Andrews in 1968,” Chris said. </p>
-                <p>Not only was Peg a teacher, her and Ron were founding members of the parish and Ron served as the school board President. </p>
-                <p>“My mom would always say it was her ministry, it wasn't a job, and so we thought that was an obvious choice to make,” Chris said. “Her friends were very generous as far as how much they gave, so once we got that going, we decided to keep it going on an annual basis. There is a need up and down, so we leave (the choice of the recipient) at the discretion of the CEF and with the principal.”</p>
-                <p>Chris said the decision to help those families wanting a Catholic education, but cannot meet financial requirements came from the lessons of his parents.</p>
-                <p>“My parents put all four of us through St. Andrews and then my two brothers and I went to Joliet Catholic and my sister went to Providence. We had 13 years of Catholic education.</p>
-                <p>My parents were by no means wealthy, but we never were for want of anything. And then, when I started my kids at St. Isidore in Bloomingdale, it's one of those things you start realizing when you do the math on what they had to do. My mom was a Catholic school teacher, so we know she didn't make much and my dad worked at Argonne Labs. It was a sacrifice for them.”</p>
-                <p>Chris said, his parents even deferred some of Peg’s salary to help support students in need at St. Andrews.</p>
-                <p>“Every little penny out of a Catholic school teacher's salary is a lot,” Chris said. “They were dedicated to St. Andrews to the core. We learned from them about giving back to the church in general, but especially to St. Andrews.”</p>
-                <p>Establishing the scholarship and working with Catholic Education Foundation Executive Director Jennifer Georgis, opened another door for Chris.</p>
-                <p>At the beginning of 2024, Chris was asked to join the CEF Board, which he accepted.</p>
-                <p>“We specifically wanted to go through the CEF with the scholarship just because we know they handle it properly and they handle it well and that they'll make sure that it goes to the people in need,” Chris said. “So I couldn't say no to that? I've only been on for 6 months now, but the quality of people that they have on that board  and the dedication to Catholic education and those in need is really outstanding.</p>
-                <p>“I joke that I gave my mom and dad a hard enough time - I wasn't a bad kid, but I needed some guidance - so this is this is a small way I'm paying back my mom for the years of torture that I gave her.”</p>
-                <p>While serving on the diocesan school board, Chris said his mom joked that he could not let St. Andrews, which was struggling at the time, close on his watch.</p>
-                <p>Both the scholarship and his efforts on the CEF board, can help keep that promise to his mom. </p>
-                <p>“Keeping the school open is important to me,” he said. “If you don't have the people here, you're not going to have the opportunity to teach the students and unfortunately, we've seen what happens if the enrollment dips too far. So, it's a double bonus, you can help a family need, and you're getting a child in a seat that needs to be filled.” </p>
+                {body}
             </div>
         </div>
