@@ -3,7 +3,7 @@
         <img src = "{assetUrl}" width="750" />
     </div>
     <div class="col-md-6 aboutcontent automargin">
-        <h2 class="innermaintitle test">{title}</h2>
+        <h2 class="innermaintitle test testMe">{title}</h2>
         <p><a href="/assets/images/2025_CEF_IMPACT_REPORT_WEB.pdf" target="_blank" class="btn btn-info">Click here to preview</a></p>
     </div>
 </div>
