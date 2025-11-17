@@ -2624,3 +2624,18 @@ h3.sentiments.laut0{
     text-transform: uppercase;
     color: #fff;
 }
+
+.site-nav li:last-child a.nav-link  {
+    font-family: 'Poppins-Bold' !important;
+    font-size: 15px !important;
+    color: #fff !important;
+    display: inline-flex !important;
+    padding: 14px 19px !important;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    background-color: #25aae1;
+    text-transform: uppercase;
+    border: 1px solid #25aae1;
+}
