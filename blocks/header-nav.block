@@ -34,7 +34,7 @@
         {.section externalLink}
           <a class="nav-link nv-exp"
             href="{url}"
-            {.if newWindow}target="_blank" rel="noopener noreferrer"{.end}>
+            {.if newWindow}target="_self" rel="noopener noreferrer"{.end}>
             {title}
           </a>
         {.end}
