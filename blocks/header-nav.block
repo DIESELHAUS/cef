@@ -32,7 +32,11 @@
            
         {.end}
         {.section externalLink}
-          <a class="nav-link nv-exp" href="{url}" {.if newWindow}target="_blank" rel="noopener noreferrer"{.end}>>{title}</a>
+          <a class="nav-link nv-exp"
+            href="{url}"
+            {.if newWindow}target="_blank" rel="noopener noreferrer"{.end}>
+            {title}
+          </a>
         {.end}
         </li>
       {.end}
