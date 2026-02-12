@@ -8,10 +8,10 @@
     <div class="row py-5">
         <div class="col-md-12 pt-5">
         <squarespace:query collection="home-footer-form" limit="1">
-            {.repeated section items}
-            {body}
-            {.end}
-        </squarespace:query>
+  <squarespace:template>
+    {body}
+  </squarespace:template>
+</squarespace:query>
         </div>
     </div>
     </div>
