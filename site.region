@@ -242,7 +242,19 @@
                 </div>
             </section>
 
-            
+            <section id="footer-form-btm" style="background: url('/assets/images/footer-form-bg.png') no-repeat center right #25aae1; min-height: 470px;">
+              <div class="container">
+                <div class="row py-5">
+                  <div class="col-md-12 pt-5">
+                    <squarespace:query collection="home-footer-form" limit="1">
+                      {.repeated section items}
+                        {body}
+                      {.end}
+                    </squarespace:query>
+                  </div>
+                </div>
+              </div>
+            </section>
 
             {.or}
               <section class="main-content" data-content-field="main-content">
